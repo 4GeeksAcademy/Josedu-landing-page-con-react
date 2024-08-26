@@ -4,7 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import NavBar from "./navbar.jsx";
 import Jumbotron from "./jumbotron.jsx";
-import Card from "./card.jsx";
+import CardHolder from "./cardholder.jsx";
 import Footer from "./footer.jsx";
 
 //create your first component
@@ -14,14 +14,7 @@ const Home = () => {
 		<div className="container-fluid">
 			<NavBar />
 			<Jumbotron />
-		<div className="container-fluid mb-3">
-			<div className="row d-flex justify-content-between">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>
-		</div>
+			<CardHolder />
 			<Footer />
 		</div>
 		</>
